@@ -86,6 +86,295 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   font-family: 'Anonymous Pro', monospace;
+   font-family: 'Poppins', sans-serif;
+   /* General Styles */
+
+   html {
+     font-size: 16px;
+   }
+
+   body {
+     font-family:'Anonymous Pro', monospace;
+     font-size: 1em;
+     color:#000000;
+     text-align: left;
+   }
+
+   ul,
+   ol {
+     list-style-type: none;
+   }
+
+   a {
+     color: #000000;
+     text-decoration: none;
+   }
+
+   h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.875em;
+     font-weight: 700;
+   }
+
+   h3 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 1.125em;
+     margin: 20px 0;
+   }
+
+   h4 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 1em;
+     margin: 20px 0;
+   }
+
+   p {
+     font-size: .875em;
+     line-height: 1.285;
+   }
+
+   img {
+     width: 100%;
+   }
+
+   figure {
+     margin: 0;
+   }
+
+   address {
+     font-style: normal;
+   }
+
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0;
+   }
+
+   /* -------------------- Base Header - Footer Styles -------------------- */
+   header,
+   footer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-flow: row wrap;
+   }
+
+   header .content-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-flow: row wrap;
+     margin: 0;
+   }
+
+   header {
+     padding: 15px 0;
+     background-color: #E5AD4F;
+   }
+
+   header .logo {
+     display: flex;
+   }
+
+   header .logo h3 {
+     margin:30px 0;
+     padding-left: 20px;
+   }
+
+   header figure {
+     width: 50%;
+     padding-left: 20px;
+   }
+
+   header .header-divider {
+     background: #3a3a3a;
+     height: 1px;
+     width: 100%;
+     margin: 10px 0 20px 0;
+   }
+
+   header nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 95%;
+     font-size: 1.125em;
+     font-weight: 700;
+     color:#000000;
+   }
+
+   header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-transform: uppercase;
+    padding-left:10px;
+   }
+
+   header nav ul li {
+    font-size: 1em;
+   }
+
+   footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+   }
+
+   footer {
+    background-color: #6D8325;
+    text-align: center;
+    flex-direction: column;
+   }
+
+   footer #contact {
+    margin-bottom: 50px;
+   }
+
+   footer p {
+    margin: 0;
+   }
+
+   footer .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   footer .social-icons p {
+    background-color: ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   footer .social-icons p i {
+    font-size: 1.3125em;
+   }
+
+   footer .copyright {
+    text-align: center;
+    margin: 20px 0;
+   }
+
+/* -------------------- Mobile - Homepage Styles -------------------- */
+
+/*  Hero Area */
+
+  #intro {
+    display: flex;
+    justify-content: center;
+    background-color: #0C101B;
+  }
+
+  #intro .content-wrapper {
+    margin: 25px 0;
+  }
+
+  #intro h1 {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.25em;
+    line-height: 1.2;
+    color: #E5AD4F;
+  }
+
+  #hero-area {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: url('../img/mumsandbubs.jpg') center no-repeat #333;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+ }
+
+
+
+/*  Work */
+
+ #work {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+   text-align: center;
+   background-color: #BD5630;
+  }
+
+  #work h3 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+
+  #work article {
+    padding: 25px 0;
+  }
+
+/*  Portfolio */
+
+  #portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    background-color: #D6CFB7;
+  }
+
+  #portfolio h2 {
+    text-align: left;
+    padding-bottom: 30px;
+  }
+
+  #portfolio article {
+    padding: 20px 0;
+  }
+
+/*  Testamonials */
+
+  .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    background-color: #BD5630;
+  }
+
+  .testamonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .testamonial p {
+    line-height: 1.3;
+  }
+
+/*  About */
+
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: left;
+    background-color: #D6CFB7;
+   }
+
+   #about .bio {
+     padding: 25px 0;
+   }
 
 /* ==========================================================================
    Helper classes
@@ -175,6 +464,194 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 768px) {
+/*----------------------Tablet styles here----------------------------------*/
+
+/*General styles*/
+
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+}
+
+/*Header styles*/
+
+header .content-wrapper {
+  width: 100%;
+}
+
+header figure {
+  width: 50%;
+  padding-left: 0;
+  justify-content: flex-start;
+}
+
+header nav {
+  width: 40%;
+  padding-left: 0;
+}
+
+header nav ul {
+  width: 100%;
+
+}
+
+.header-divider {
+  display: none;
+}
+
+/*Hero Area*/
+
+.hero-area {
+  min-height: 600px;
+}
+
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
+
+/*Work*/
+
+#work .content-wrapper {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#work .work-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    text-align: center;
+}
+
+#work article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: 50%;
+  padding-bottom: 50px;
+}
+
+#work .description{
+  width: 60%;
+}
+
+/*Portfolio*/
+
+#portfolio h2 {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+#portfolio .portfolio-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    text-align: center;
+}
+
+#portfolio article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: 40%;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/*Reviews*/
+
+.reviews h2 {
+  text-align: left;
+}
+
+.reviews .testamonial p {
+  text-align: center;
+}
+/*About*/
+
+#about h2, .bio, p {
+  text-align: left;
+}
+
+/*Footer styles*/
+
+footer .content-wrapper {
+  width: 100%;
+}
+
+footer #contact {
+  text-align: left;
+  margin-bottom: 75px;
+}
+
+footer .social {
+  width: 20%;
+
+}
+
+footer .social-icons {
+  text-align: left;
+}
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+/*--------------------------Desktop styles here-----------------------------*/
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.125em;
+    line-height: 1.333;
+}
+
+/*Work styles*/
+
+#work article {
+
+}
+
+/*Portfolio styles*/
+
+#portfolio article {
+padding-bottom: 75px;
+
+}
+
+}
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
@@ -260,4 +737,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
