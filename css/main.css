@@ -317,6 +317,10 @@ textarea {
     padding: 25px 0;
   }
 
+  #work .description {
+    padding: 30px 10px;
+  }
+
 /*  Portfolio */
 
   #portfolio {
@@ -373,7 +377,8 @@ textarea {
    }
 
    #about .bio {
-     padding: 25px 0;
+     padding-top: 25px;
+     padding-bottom:40px;
    }
 
 /* ==========================================================================
@@ -491,13 +496,17 @@ header .content-wrapper {
 }
 
 header figure {
-  width: 50%;
+  width: 25%;
   padding-left: 0;
   justify-content: flex-start;
 }
 
+header .logo h3 {
+  margin: 10px 0;
+}
+
 header nav {
-  width: 40%;
+  width: 35%;
   padding-left: 0;
 }
 
@@ -512,15 +521,17 @@ header nav ul {
 
 /*Hero Area*/
 
-.hero-area {
-  min-height: 600px;
+#intro h1 {
+  font-size: 2.35em;
+  line-height: 1;
+  margin: 30px 0;
+  width: 95%;
 }
 
-.hero-area h1 {
-  font-size: 3em;
-  line-height: 1;
-  margin: 0;
+#hero-area {
+  min-height: 500px;
 }
+
 
 /*Work*/
 
@@ -535,7 +546,6 @@ header nav ul {
     align-items: center;
     flex-flow: row wrap;
     width: 100%;
-    text-align: center;
 }
 
 #work article {
@@ -543,12 +553,13 @@ header nav ul {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  flex-basis: 50%;
-  padding-bottom: 50px;
+  flex-basis: 40%;
+  padding: 50px 20px;
 }
 
-#work .description{
-  width: 60%;
+#work article .description p {
+  width: 90%;
+  text-align: center;
 }
 
 /*Portfolio*/
@@ -578,6 +589,10 @@ header nav ul {
   padding-left: 10px;
 }
 
+#portfolio p {
+  text-align: center;
+}
+
 /*Reviews*/
 
 .reviews h2 {
@@ -591,6 +606,11 @@ header nav ul {
 
 #about h2, .bio, p {
   text-align: left;
+}
+
+#about figure {
+  width: 75%;
+  padding-left: 75px;
 }
 
 /*Footer styles*/
