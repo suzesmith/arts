@@ -548,7 +548,7 @@ header nav ul {
 #work .work-items {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: row wrap;
     width: 100%;
 }
@@ -615,8 +615,8 @@ header nav ul {
 }
 
 #about figure {
-  width: 75%;
-  padding-left: 75px;
+  width: 65%;
+  padding-left: 100px;
 }
 
 /*Footer styles*/
@@ -694,6 +694,10 @@ header .logo h3 {
 #portfolio article {
 padding-bottom: 75px;
 
+}
+
+#about figure {
+  padding-left: 150px;
 }
 
 }
