@@ -86,8 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   font-family: 'Anonymous Pro', monospace;
-   font-family: 'Poppins', sans-serif;
+
    /* General Styles */
 
    html {
@@ -245,7 +244,6 @@ textarea {
    }
 
    footer .social-icons p {
-    background-color: ;
     border-radius: 50%;
     width: 40px;
     height: 40px;
