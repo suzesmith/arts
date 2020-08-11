@@ -351,10 +351,6 @@ textarea {
   }
 
   .testamonial {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     text-align: center;
     padding: 30px 10px;
   }
@@ -606,6 +602,7 @@ header nav ul {
 .reviews .testamonial p {
   text-align: center;
 }
+
 /*About*/
 
 #about h2, .bio, p {
