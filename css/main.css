@@ -578,7 +578,7 @@ header nav ul {
 #portfolio .portfolio-items {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: row wrap;
     width: 100%;
     text-align: center;
