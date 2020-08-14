@@ -316,6 +316,10 @@ textarea {
     padding: 25px 0;
   }
 
+  #work #credit p {
+    font-size: 0.5em;
+  }
+
   #work .description {
     padding: 30px 0;
     font-weight: 700;
@@ -678,7 +682,7 @@ header .logo h3 {
 /*Hero Area*/
 
 #intro h1 {
-  font-size: 3.5em;
+  font-size: 3.1em;
   line-height: 1.2;
   margin: 30px 0;
   width: 95%;
