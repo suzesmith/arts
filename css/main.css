@@ -347,6 +347,14 @@ textarea {
     padding: 20px 0;
   }
 
+  #seeMoreButton {
+    background-color: #6D8325;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #222;
+  }
+
 /*  Testamonials */
 
   .reviews {
